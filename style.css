@@ -1,0 +1,76 @@
+/* Reset */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Colors */
+
+:root {
+  --white: hsl(0, 0%, 100%);
+  --ligh-gray: hsl(212, 45%, 89%);
+  --grayish-blue: hsl(220, 15%, 55%);
+  --dark-blue: hsl(218, 44%, 22%);
+}
+
+/* Main styles */
+
+body {
+  background-color: var(--ligh-gray);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Outfit", sans-serif;
+  font-size: 15px;
+}
+
+.card {
+  max-width: 325px;
+  max-height: 500px;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 5px;
+  border-radius: 10px;
+}
+
+img {
+  max-width: 295px;
+  max-height: 290px;
+  border-radius: 10px;
+}
+
+h1 {
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+p {
+  font-weight: 400;
+  color: var(--grayish-blue);
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 7px;
+}
+
+/* Attribution section*/
+.attribution {
+  margin-top: 50px;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
